@@ -86,26 +86,19 @@ public class Restaurant {
 	
 	public void printInvoice (String[] menuCode, int jmlPesanan, double totalBill, int[] qty, int brg) {
 		System.out.println("\n==========:::::::>>>>>{ INVOICE SUMMARY }<<<<<:::::::==========\n");
-		
 		System.out.println("\n >>> FOOD ORDERED ARE LISTED BELOW : ");
 		
 		for (int i = 0; i <= brg; i++) {
 			for (int j = 0; j <= id; j++) {
 				if (menuCode[i].compareTo(daftarMenu[j].getOrdered_food()) == 0 && menuCode[i] != null) {
-					// if (stock_awal >= jmlPesanan) System.out.println("\n  " + daftarMenu[i].getFood_name());
-					// System.out.println("\n  " + daftarMenu[j].getFood_name() + " [" + qty[i] + " buah]");
 					System.out.printf("\n  %-12s [%02d  buah]", daftarMenu[j].getFood_name(), qty[i]);
-					
 					j = 999;
 				}
 			}
 		}
 		
 		System.out.print("\n\n >>> AMOUNT OF FOOD ORDERED : ");
-//		if (stock_awal >= jmlPesanan) System.out.println(jmlPesanan + " buah. \n");
-//		else System.out.println("Unvalid!!!\n");
 		System.out.println(jmlPesanan + " buah. \n");
-		
 		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
 		System.out.println("  You have to pay     :  " + totalBill + " !!!\n");
 		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");

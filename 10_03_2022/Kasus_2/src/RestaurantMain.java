@@ -51,7 +51,6 @@ public class RestaurantMain {
 			
 		}
 		
-		// invoice masih belum print elemen terakhir jika makanan yg dipesan lebih dari 2
 		menu.printInvoice(foodCode, Qtys, totalBill, Qty, itrs);
 		
 		sc.close();
