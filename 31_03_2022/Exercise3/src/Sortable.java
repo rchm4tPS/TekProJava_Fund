@@ -1,7 +1,7 @@
 
 /**
  * This is the Sortable interface
- * @author Sadang 163
+ * @author Rachmat Purwa Saputra
  *
  */
 interface Sortable {
