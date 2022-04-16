@@ -1,5 +1,5 @@
 # Newly created repository!
-## For collecting all project in one place only
+## For collecting all projects in one place only
 
 <p>Repository ini merupakan <b>gabungan dari 2 (dua) repository lama</b>. Jadi, konten yang ada di repository lama juga ada di repository ini. Tujuan dijadikan menjadi satu repository
 <b>agar tidak menciptakan banyak repository baru untuk praktikum di hari-hari yang akan datang.</b></p>
