@@ -18,8 +18,8 @@ public class JdbcFinalCrudRepository implements FinalCrudRepository {
 
 	@Override
 	public int save(Student student) {
-		return jdbcTemplate.update("INSERT INTO students_d4 (id,name) VALUES(?,?)",
-				new Object[] {student.getId(), student.getName()});
+		return jdbcTemplate.update("INSERT INTO students_d4 (id,name,tempat_lahir,makanan_favorit) VALUES(?,?,?,?)",
+				new Object[] {student.getId(), student.getName(), student.getTempat_lahir(), student.getMakanan_favorit()});
 	}
 
 	@Override

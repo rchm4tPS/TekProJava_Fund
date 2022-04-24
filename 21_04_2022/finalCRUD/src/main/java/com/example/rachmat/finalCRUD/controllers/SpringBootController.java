@@ -38,6 +38,8 @@ public class SpringBootController {
 		if (_student != null) {
 			_student.setId(student.getId());
 			_student.setName(student.getName());
+			_student.setTempat_lahir(student.getTempat_lahir());
+			_student.setMakanan_favorit(student.getMakanan_favorit());
 			jdbcfcr.update(_student);
 			return "Successfully updated!";
 		}
@@ -66,7 +68,7 @@ public class SpringBootController {
 		try {
 			int result = jdbcfcr.deleteById(id);
 			if (result == 0)
-				return "Cannot find record with ID"+id+" !";
+				return "Cannot find record with ID "+id+" !";
 			return "Students was deleted successfully!";
 		} catch (Exception e) {
 			return "Cannot handle this operation!";

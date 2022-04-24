@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Muhammad Rafi Farhan",
+        "tempat_lahir": "Bandung, Jawa Barat",
+        "makanan_favorit": "Semur tahu"
+    },
+    {
+        "id": 2,
+        "name": "Rofa'Ul Akrom Hendrawan",
+        "tempat_lahir": "Kabupaten Bandung Barat",
+        "makanan_favorit": "Nasi Uduk"
+    },
+    {
+        "id": 3,
+        "name": "Delvito Rahim Derivansyah",
+        "tempat_lahir": "Bandung, Jawa Barat",
+        "makanan_favorit": "Ayam goreng"
+    },
+    {
+        "id": 4,
+        "name": "Danu Mahesa",
+        "tempat_lahir": "Kabupaten Bandung",
+        "makanan_favorit": "Sate Taichan"
+    },
+    {
+        "id": 5,
+        "name": "Rahmat Purwa Saputra",
+        "tempat_lahir": "Garut, Jawa Barat",
+        "makanan_favorit": "Kupat tahu"
+    }
+]
